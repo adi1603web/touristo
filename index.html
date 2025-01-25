@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Explore the World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 style="color: rgb(121, 145, 243);"><i>TOURISTO</i></h1>
+        <p style="text-align: center; color: rgb(133, 238, 238);">Your adventure begins here!</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <section id="home">
+        <h2>Welcome to Explore the World</h2>
+        <p>We offer exclusive travel packages to the most beautiful places on Earth!</p>
+    </section>
+     <section id="login">
+        <h2>Login</h2>
+        <form action="login.html" method="post">
+            <label for="username">Username / Email:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username or email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit" class="button">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </section>
+
+    <!-- Flight Section -->
+    <section id="flights">
+        <h2>Flights</h2>
+        <p>Book your flights at the best rates to anywhere in the world! We provide convenient and affordable flights from leading airlines.</p>
+        
+        <label for="flight-destination">Choose your flight destination:</label>
+        <select id="flight-destination" name="flight-destination">
+            <option value="paris">Paris</option>
+            <option value="nyc">New York City</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="london">London</option>
+            <option value="rome">Rome</option>
+        </select>
+        
+        <label for="flight-class">Choose your flight class:</label>
+        <select id="flight-class" name="flight-class">
+            <option value="economy">Economy</option>
+            <option value="business">Business</option>
+            <option value="first">First Class</option>
+        </select>
+
+        <a href="flights.html" class="button">Explore Flights</a>
+        <!-- Flight Image -->
+        <img src="Screenshot 2025-01-25 005947.png" alt="Flight Image" class="feature-image">
+    </section>
+
+    <!-- Hotels Section -->
+    <section id="hotels">
+        <h2>Hotels</h2>
+        <p>Stay in luxury, comfort, or budget-friendly accommodations at your travel destination. We partner with the best hotels worldwide.</p>
+
+        <label for="hotel-destination">Choose your hotel destination:</label>
+        <select id="hotel-destination" name="hotel-destination">
+            <option value="paris">Paris</option>
+            <option value="nyc">New York City</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="london">London</option>
+            <option value="rome">Rome</option>
+        </select>
+
+        <label for="hotel-type">Choose your hotel type:</label>
+        <select id="hotel-type" name="hotel-type">
+            <option value="luxury">Luxury</option>
+            <option value="mid-range">Mid-range</option>
+            <option value="budget">Budget</option>
+        </select>
+
+        <a href="hotels.html" class="button">Explore Hotels</a>
+        <!-- Hotel Image -->
+        <img src="Screenshot 2025-01-25 010254.png" alt="Hotel Image" class="feature-image">
+    </section>
+
+    <!-- Trains Section -->
+    <section id="trains">
+        <h2>Trains</h2>
+        <p>Experience the scenic beauty of your journey by booking train travel through iconic routes across various countries.</p>
+
+        <label for="train-route">Choose your train route:</label>
+        <select id="train-route" name="train-route">
+            <option value="bihar">Bihar</option>
+            <option value="gujarat">Gujarat</option>
+            <option value="maharashtra">Punjab</option>
+            <option value="kashmir">Kashmir</option>
+        </select>
+
+        <label for="train-class">Choose your train class:</label>
+        <select id="train-class" name="train-class">
+            <option value="economy">Economy</option>
+            <option value="sleeper">Sleeper</option>
+            <option value="luxury">Luxury</option>
+        </select>
+
+        <a href="trains.html" class="button">Explore Trains</a>
+        <!-- Train Image -->
+        <img src="Screenshot 2025-01-25 010436.png" alt="Train Image" class="feature-image">
+    </section>
+
+    <!-- Holiday Packages Section -->
+    <section id="holiday-packages">
+        <h2>Holiday Packages</h2>
+        <p>Choose from our amazing holiday packages to explore new destinations or enjoy your dream vacation, all designed with you in mind!</p>
+
+        <label for="holiday-destination">Choose your holiday destination:</label>
+        <select id="holiday-destination" name="holiday-destination">
+            <option value="paris">Paris</option>
+            <option value="nyc">New York City</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="london">London</option>
+            <option value="bali">Bali</option>
+        </select>
+
+        <label for="holiday-type">Choose your holiday type:</label>
+        <select id="holiday-type" name="holiday-type">
+            <option value="adventure">Adventure</option>
+            <option value="romantic">Romantic</option>
+            <option value="family">Family</option>
+            <option value="beach">Beach</option>
+        </select>
+
+        <a href="holiday-packages.html" class="button">Explore Packages</a>
+        <!-- Holiday Packages Image -->
+        <img src="Screenshot 2025-01-25 010631.png" alt="Holiday Package Image" class="feature-image">
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Explore the World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
