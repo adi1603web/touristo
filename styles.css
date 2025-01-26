@@ -1,10 +1,13 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+
     margin: 0;
     padding: 0;
     background-color: #f0f4f8;
     color: #333;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 h1, h2, h3 {
@@ -17,15 +20,20 @@ header {
     color: white;
     padding: 50px 20px;
     text-align: left;
+    text-decoration: underline;
 }
 
 header h1 {
-    font-size: 3em;
+    font-size: 20px;
     margin-bottom: 10px;
+    selector {
+        font-family: 'Font Name', generic-family;
+      }
+      
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 20px;
     margin-top: 0;
 }
 
@@ -42,7 +50,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -58,6 +66,7 @@ section {
 section#home {
     background-color: #ffffff;
     text-align: center;
+    text-decoration: underline;
 }
 
 section#destinations {
@@ -68,11 +77,16 @@ section#destinations .destination-gallery {
     display: flex;
     justify-content: center;
     gap: 20px;
+    body {
+        font-family: 'Roboto', sans-serif;
+      }
+      
 }
 
 section#destinations .destination {
     text-align: center;
     max-width: 300px;
+    text-decoration: underline;
 }
 
 section#destinations img {
@@ -85,6 +99,7 @@ section#about, section#contact {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
+    text-decoration: underline;
 }
 
 /* Form Styles */
@@ -94,6 +109,7 @@ form {
     max-width: 500px;
     margin: 0 auto;
     text-align: left;
+    text-decoration: underline;
 }
 
 form input, form textarea {
@@ -101,7 +117,8 @@ form input, form textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
-    font-size: 1em;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 form button {
@@ -110,8 +127,9 @@ form button {
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 1.2em;
-    border-radius: 5px;
+    font-size: 20px;
+    border-radius: 5pX;
+    text-decoration: underline;
 }
 
 form button:hover {
@@ -186,11 +204,12 @@ section p {
 h3 {
     margin-top: 10px;
     color: #2a3d66;
+    font-family: 'Georgia', serif;
 }
 
 p {
     color: #555;
-    font-size: 1.1em;
+    font-size: 40px;
 }
 /* Destination Gallery */
 .destination-gallery {
@@ -267,6 +286,8 @@ p {
 h3 {
     margin-top: 10px;
     color: #2a3d66;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+
 }
 
 p {
@@ -657,7 +678,10 @@ header {
 footer{
     height: 30px;
     position: relative;
-    text-align: center;
+    
+}
+footer{
+    color: #ccc;
 }
   
 
